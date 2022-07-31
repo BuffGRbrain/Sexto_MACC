@@ -1,6 +1,6 @@
 import shodan
 #If the queries use quote marks wrap that in ''
-SHODAN_API_KEY = "1SDmQiIM9Pejrt03gE3VTGVUdNz4eEZG"
+SHODAN_API_KEY = "your_key"
 
 api = shodan.Shodan(SHODAN_API_KEY)#Setup API
 country = ["US","AR","BO","BR","CL","CO","CR","CU","EC","SV","GT","HN","MX","NI","PA","PY","PE","PR","DO","UY","VE"]#LATAM+US
